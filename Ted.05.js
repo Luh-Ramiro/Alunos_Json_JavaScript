@@ -24,6 +24,6 @@ const alunos = [
     });
   }
   
-  // Chamada da função
+
   exibirAlunosAprovados(alunos);
   
