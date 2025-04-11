@@ -1,4 +1,3 @@
-// JSON transformado em objetos JavaScript
 const alunos = [
     { nome: "Maria Joaquinha", notas: [8, 7.5, 9], curso: "Sistemas para Internet" },
     { nome: "João Ricardo", notas: [8, 8.5, 5], curso: "Direito" },
@@ -11,7 +10,6 @@ const alunos = [
     { nome: "Gustavo Henrique", notas: [8, 7.5, 5], curso: "Sistemas para Internet" }
   ];
   
-  // Função para calcular a média e imprimir alunos com média >= 7
   function exibirAlunosAprovados(listaAlunos) {
     listaAlunos.forEach(aluno => {
       const somaNotas = aluno.notas.reduce((soma, nota) => soma + nota, 0);

@@ -8,7 +8,7 @@
   <h1>Veja o console para os alunos aprovados</h1>
 
   <script>
-    // Dados dos alunos
+   
     const alunos = [
       { nome: "Maria Joaquinha", notas: [8, 7.5, 9], curso: "Sistemas para Internet" },
       { nome: "João Ricardo", notas: [8, 8.5, 5], curso: "Direito" },
@@ -21,7 +21,6 @@
       { nome: "Gustavo Henrique", notas: [8, 7.5, 5], curso: "Sistemas para Internet" }
     ];
 
-    // Função que exibe os alunos com média >= 7
     function exibirAlunosAprovados(listaAlunos) {
       listaAlunos.forEach(aluno => {
         const soma = aluno.notas.reduce((total, nota) => total + nota, 0);
@@ -36,7 +35,6 @@
       });
     }
 
-    // Chamada da função
     exibirAlunosAprovados(alunos);
   </script>
 </body>
